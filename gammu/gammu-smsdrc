@@ -1,0 +1,11 @@
+[gammu]
+device = /dev/wavecom
+connection = at115200
+
+[smsd]
+service = SQL
+driver = native_mysql
+host = localhost
+database = smsbox
+user = smsbox
+password = smsbox
